@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="320"
+     height="320"
+     viewBox="0 0 320 320">
+
+  <style>
+    .pixel {
+      stroke: #222;
+      stroke-width: 1;
+      transition: fill 0.2s ease;
+    }
+  </style>
+
+  <!-- Row A -->
+  <g id="row-A">
+    <rect id="A1" class="pixel" x="0"   y="0" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="A2" class="pixel" x="40"  y="0" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="A3" class="pixel" x="80"  y="0" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="A4" class="pixel" x="120" y="0" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="A5" class="pixel" x="160" y="0" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="A6" class="pixel" x="200" y="0" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="A7" class="pixel" x="240" y="0" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="A8" class="pixel" x="280" y="0" width="40" height="40" fill="#CCCCCC"/>
+  </g>
+
+  <!-- Row B -->
+  <g id="row-B">
+    <rect id="B1" class="pixel" x="0"   y="40" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="B2" class="pixel" x="40"  y="40" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="B3" class="pixel" x="80"  y="40" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="B4" class="pixel" x="120" y="40" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="B5" class="pixel" x="160" y="40" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="B6" class="pixel" x="200" y="40" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="B7" class="pixel" x="240" y="40" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="B8" class="pixel" x="280" y="40" width="40" height="40" fill="#CCCCCC"/>
+  </g>
+
+  <!-- Row C -->
+  <g id="row-C">
+    <rect id="C1" class="pixel" x="0"   y="80" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="C2" class="pixel" x="40"  y="80" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="C3" class="pixel" x="80"  y="80" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="C4" class="pixel" x="120" y="80" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="C5" class="pixel" x="160" y="80" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="C6" class="pixel" x="200" y="80" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="C7" class="pixel" x="240" y="80" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="C8" class="pixel" x="280" y="80" width="40" height="40" fill="#CCCCCC"/>
+  </g>
+
+  <!-- Row D -->
+  <g id="row-D">
+    <rect id="D1" class="pixel" x="0"   y="120" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="D2" class="pixel" x="40"  y="120" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="D3" class="pixel" x="80"  y="120" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="D4" class="pixel" x="120" y="120" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="D5" class="pixel" x="160" y="120" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="D6" class="pixel" x="200" y="120" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="D7" class="pixel" x="240" y="120" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="D8" class="pixel" x="280" y="120" width="40" height="40" fill="#CCCCCC"/>
+  </g>
+
+  <!-- Row E -->
+  <g id="row-E">
+    <rect id="E1" class="pixel" x="0"   y="160" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="E2" class="pixel" x="40"  y="160" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="E3" class="pixel" x="80"  y="160" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="E4" class="pixel" x="120" y="160" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="E5" class="pixel" x="160" y="160" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="E6" class="pixel" x="200" y="160" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="E7" class="pixel" x="240" y="160" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="E8" class="pixel" x="280" y="160" width="40" height="40" fill="#CCCCCC"/>
+  </g>
+
+  <!-- Row F -->
+  <g id="row-F">
+    <rect id="F1" class="pixel" x="0"   y="200" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="F2" class="pixel" x="40"  y="200" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="F3" class="pixel" x="80"  y="200" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="F4" class="pixel" x="120" y="200" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="F5" class="pixel" x="160" y="200" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="F6" class="pixel" x="200" y="200" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="F7" class="pixel" x="240" y="200" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="F8" class="pixel" x="280" y="200" width="40" height="40" fill="#CCCCCC"/>
+  </g>
+
+  <!-- Row G -->
+  <g id="row-G">
+    <rect id="G1" class="pixel" x="0"   y="240" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="G2" class="pixel" x="40"  y="240" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="G3" class="pixel" x="80"  y="240" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="G4" class="pixel" x="120" y="240" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="G5" class="pixel" x="160" y="240" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="G6" class="pixel" x="200" y="240" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="G7" class="pixel" x="240" y="240" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="G8" class="pixel" x="280" y="240" width="40" height="40" fill="#CCCCCC"/>
+  </g>
+
+  <!-- Row H -->
+  <g id="row-H">
+    <rect id="H1" class="pixel" x="0"   y="280" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="H2" class="pixel" x="40"  y="280" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="H3" class="pixel" x="80"  y="280" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="H4" class="pixel" x="120" y="280" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="H5" class="pixel" x="160" y="280" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="H6" class="pixel" x="200" y="280" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="H7" class="pixel" x="240" y="280" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="H8" class="pixel" x="280" y="280" width="40" height="40" fill="#CCCCCC"/>
+  </g>
+
+</svg>
