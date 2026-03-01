@@ -43,12 +43,13 @@ jobs:
           STATE=$(cat data/state.json)
 
           USER_COOLDOWN=$(echo $STATE | jq -r ".users[\"$USERNAME\"] // 0")
-          TILE_LOCK=$(echo $STATE | jq -r ".tiles[\"$COORD\"].lock_until // 0")
+          TILE_LOCK=$(echo "$STATE" | jq -r ".tiles[\"$COORD\"]?.lock_until // 0")
 
           # Check user cooldown
           if [ "$NOW" -lt "$USER_COOLDOWN" ]; then
-            REMAIN=$(( ($USER_COOLDOWN - $NOW) / 3600 ))
-            gh issue comment $ISSUE_NUMBER --body "⏳ You may paint again in ${REMAIN}h."
+            SECONDS_LEFT=$((USER_COOLDOWN - NOW))
+            HOURS_LEFT=$(( (SECONDS_LEFT + 3599) / 3600 ))
+            gh issue comment $ISSUE_NUMBER --body "⏳ You may paint again in approximately ${HOURS_LEFT}h."
             exit 0
           fi
 
