@@ -1,4 +1,4 @@
-# 🎨 Commit-Art  
+# 🎨 Issue-Ink 
 ## 🌍 The Global Rorschach Canvas
 
 A slow-motion collaborative art experiment powered entirely by GitHub.
