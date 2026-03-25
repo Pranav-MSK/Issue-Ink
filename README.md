@@ -1,11 +1,7 @@
 # 🎨 Issue-Ink 
 ## 🌍 The Global Rorschach Canvas
-
 A slow-motion collaborative art experiment powered entirely by GitHub.
-
-No servers.  
-No database.  
-Just Issues → Actions → SVG.
+No servers. No database. Just Issues → Actions → SVG.
 
 ---
 
@@ -16,7 +12,6 @@ Just Issues → Actions → SVG.
 ---
 
 ## 🎨 How To Paint
-
 1. Go to the **Issues** tab.
 2. Click **New Issue**.
 3. Use this exact format in the **title**:
@@ -26,7 +21,6 @@ Paint [A5] #FF5733
 ```
 
 That’s it.
-
 If valid, your pixel will be painted automatically.
 
 ---
