@@ -1,5 +1,21 @@
 {
-  "users": {},
-  "tiles": {},
-  "history": []
+  "users": {
+    "Pranav-MSK": 1774542346
+  },
+  "tiles": {
+    "D3": {
+      "last_user": "Pranav-MSK",
+      "last_painted": 1774455946,
+      "paint_count": 1,
+      "lock_until": 1774459546
+    }
+  },
+  "history": [
+    {
+      "user": "Pranav-MSK",
+      "coord": "D3",
+      "color": "#0EE632",
+      "timestamp": 1774455946
+    }
+  ]
 }
