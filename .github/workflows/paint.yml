@@ -18,6 +18,9 @@ jobs:
       - name: Install jq
         run: sudo apt-get install jq
 
+      - name: Authenticate gh
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
       - name: Process Issue
         env:
           ISSUE_BODY: ${{ github.event.issue.title }}
@@ -33,6 +36,7 @@ jobs:
           if [[ ! "$ISSUE_BODY" =~ ^Paint\ \[([A-H][1-8])\]\ \#([A-Fa-f0-9]{6})$ ]]; then
             gh issue comment $ISSUE_NUMBER --body "❌ Invalid format. Use: Paint [A5] #FF5733"
             gh issue edit $ISSUE_NUMBER --add-label "Invalid"
+            gh issue close $ISSUE_NUMBER --comment "🔒 Closing automatically."
             exit 0
           fi
 
@@ -49,13 +53,13 @@ jobs:
           if [ "$NOW" -lt "$USER_COOLDOWN" ]; then
             SECONDS_LEFT=$((USER_COOLDOWN - NOW))
             HOURS_LEFT=$(( (SECONDS_LEFT + 3599) / 3600 ))
-            gh issue comment $ISSUE_NUMBER --body "⏳ You may paint again in approximately ${HOURS_LEFT}h."
+            gh issue close $ISSUE_NUMBER --comment "⏳ You may paint again in approximately ${HOURS_LEFT}h."
             exit 0
           fi
 
           # Check tile lock
           if [ "$NOW" -lt "$TILE_LOCK" ]; then
-            gh issue comment $ISSUE_NUMBER --body "🔒 Tile $COORD is locked for another hour."
+            gh issue close $ISSUE_NUMBER --comment "🔒 Tile $COORD is locked for another hour."
             exit 0
           fi
 
@@ -97,5 +101,6 @@ jobs:
           git commit -m "🎨 $USERNAME painted $COORD $COLOR"
           git push
 
-          gh issue comment $ISSUE_NUMBER --body "✅ Painted $COORD $COLOR"
+          ggh issue comment $ISSUE_NUMBER --body "✅ Painted $COORD $COLOR"
           gh issue edit $ISSUE_NUMBER --add-label "Completed"
+          gh issue close $ISSUE_NUMBER --comment "🎨 Action complete."
