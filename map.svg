@@ -17,7 +17,7 @@
     <rect id="A2" class="pixel" x="40"  y="0" width="40" height="40" fill="#CCCCCC"/>
     <rect id="A3" class="pixel" x="80"  y="0" width="40" height="40" fill="#CCCCCC"/>
     <rect id="A4" class="pixel" x="120" y="0" width="40" height="40" fill="#CCCCCC"/>
-    <rect id="A5" class="pixel" x="160" y="0" width="40" height="40" fill="#CCCCCC"/>
+    <rect id="A5" class="pixel" x="160" y="0" width="40" height="40" fill="#FFD872"/>
     <rect id="A6" class="pixel" x="200" y="0" width="40" height="40" fill="#CCCCCC"/>
     <rect id="A7" class="pixel" x="240" y="0" width="40" height="40" fill="#CCCCCC"/>
     <rect id="A8" class="pixel" x="280" y="0" width="40" height="40" fill="#CCCCCC"/>
