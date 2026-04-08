@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in Commit-Art:
+If you discover a security vulnerability in Issue-Ink:
 
 - Please do NOT open a public issue.
 - Email the repository owner directly via GitHub profile contact.
