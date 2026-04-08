@@ -1,6 +1,6 @@
 # Code of Conduct
 
-Commit-Art is an open, collaborative experiment.
+Issue-Ink is an open, collaborative experiment.
 
 We are committed to providing a respectful and inclusive environment.
 
